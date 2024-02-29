@@ -8,6 +8,9 @@ This app was made for _LEDVANCE RGBW 806lm 9w E27_
 ```
   $ pip install pytuya soundcard scapy PySide6 numpy
   $ cd TechnoBulb
+  $ cd resync-key
+  $ python print_local_keys.py
+  $ cd ..
   $ python techno_bulb.py
 ```
 
