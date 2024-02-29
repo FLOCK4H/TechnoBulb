@@ -10,6 +10,9 @@ This app was made for _LEDVANCE RGBW 806lm 9w E27_
   $ cd TechnoBulb
   $ cd resync-key
   $ python print_local_keys.py
+```
+You will need to include your local keys and devices mac adresses in `techno_bulb.py` file
+```
   $ cd ..
   $ python techno_bulb.py
 ```
