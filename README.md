@@ -23,6 +23,6 @@ The GUI is for simply pausing the algorithm, press 'P' to pause the color at cur
 
 # About
 
-This app catches the sound stream of the default output device on the lower level, means it captures audio before it gets to the speakers.
+This app catches the sound stream of the default output device on the lower level, means it captures the stream before the audio gets to the speakers.
 The delay is also minimal, very difficult to notice.
 The audio is then converted into magnitude and frequency using FFT (Fast Fourier Transformation) and is applied on the color gradient scheme to finally send the right color via request to the bulb.
