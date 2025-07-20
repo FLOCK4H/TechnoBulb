@@ -1,0 +1,2 @@
+import tinytuya
+tinytuya.scan()
